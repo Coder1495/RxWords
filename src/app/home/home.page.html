@@ -19,13 +19,21 @@
   
   <div class="divinfo" align="center">
     <div class="info" align="left">
-      <ion-text class="infoa">NAME </ion-text>
       <ion-text class="infob">SERTALINE</ion-text> 
-      <br><ion-text class="infoc">CLASS </ion-text>
-      <ion-text class="infod">ANTIDEPRESSANT</ion-text> 
-      <br><ion-text class="infoe">INFO </ion-text>
-      <ion-text class="infof">MAJOR DEPRESSIVE DISORDER (MDD)</ion-text> 
     </div>
+  </div>
+
+  <div class="divwarning" align="center">
+    <div class="warning">  
+      <ion-text class="warninga">WARNING: </ion-text>
+      <ion-text class="warningb">ANTIDEPRESSANTS INCREASE THE RISK OF SUICIDAL THOUGHTS AND BEHAVIORS IN PEDIATRIC AND YOUNG ADULT PATIENTS</ion-text>
+    </div>
+  </div>
+
+  <div class="divhint" align="center">
+    <ion-text class="hint">         
+      <ion-icon class="hinta" name="bulb"></ion-icon> A FEELING OF SADNESS OR HOPELESSNESS
+    </ion-text>
   </div>
 
   <div class="divword" align="center">
@@ -54,18 +62,32 @@
       <ion-button size="large" color="secondary" type="button" routerDirection="forward">S</ion-button>
       </div>
   </div>
-
-  <div class="divhint" align="center">
-    <ion-text class="hint">         
-      <ion-icon class="hinta" name="bulb"></ion-icon> A FEELING OF SADNESS OR HOPELESSNESS
-    </ion-text>
+   
+  <div class="x" align="center">        
+    <ion-button class="level" fill="outline" color="black">
+      Quiz: Sertaline
+    </ion-button>
   </div>
 
-  <div class="divwarning" align="center">
-    <div class="warning">  
-      <ion-text class="warninga">WARNING: </ion-text>
-      <ion-text class="warningb">ANTIDEPRESSANTS INCREASE THE RISK OF SUICIDAL THOUGHTS AND BEHAVIORS IN PEDIATRIC AND YOUNG ADULT PATIENTS</ion-text>
+  <div class="question">  
+    <ion-text class="x">Can you drink while taking Sertaline?</ion-text>
+  </div>
+
+  <div class="choices" align="center">
+    <div>
+      <ion-radio></ion-radio><ion-text class="x">Yes</ion-text>
+    </div>
+    <div>
+      <ion-radio></ion-radio><ion-text class="x">No</ion-text>
+    </div>
+    <div>
+      <ion-radio></ion-radio><ion-text class="x">Not Applicable</ion-text>
     </div>
   </div>
-                                                                         
+
+  
+
+
 </ion-content>
+
+
