@@ -1,3 +1,23 @@
+.contentArea { 
+    --background: white;
+}
+
+.divheader {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top:10px;
+    padding-bottom:10px;
+}
+.header {
+    color: black;
+    font-family: "tahoma";
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    padding-left: 10px;
+    padding-right: 10px; 
+}
+
 .parent {
     /*parent flexbox - whole page*/
     display: flex;
@@ -118,6 +138,7 @@
     
     .submit {
         background-color: #f87203;
+        color:black;
     }
     
 }
